@@ -18,7 +18,7 @@ public class Flashcards {
    f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
    //set look and feel
    JFrame.setDefaultLookAndFeelDecorated(true);
-   JLabel labelM = new JLabel("Hvad er den kemiske formel for sølvnitrat?"); // Not Only of Sight, but of: 
+   JLabel labelM = new JLabel("Hvad er den kemiske formel for sølvnitrat?");  
    labelM.setBounds(50, 50, 500, 30);
    JTextField motto1 = new JTextField();
    //set size of the text box
@@ -51,21 +51,10 @@ public class Flashcards {
          textArea.setBackground(new Color(238,238,238,255));
        }
      });
-     // make button transparent 
-     /*  b.setOpaque(false);
-       b.setContentAreaFilled(false);
-       b.setBorderPainted(false); */ 
      // add button to frame
      f.add(b); 
-     
-  //   testButton.addActionListener(e -> System.out.println("Click Detected by Lambda Listener"));
-   
-    
-
 
   }
-
-  
 
 }
   
